@@ -1,0 +1,35 @@
+.text-overlay {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+  }
+  .title
+  {
+    font-family: "Bree Serif";
+    -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: black;
+  }
+  .footer
+  {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,154,62,1) 0%, rgba(255,239,85,1) 84%);
+  }
+  @media(max-width:1000px)
+  {
+    .text-overlay
+    {
+        position: absolute;
+        top:35vh;
+    }
+  }
+  @media(max-width:600px)
+  {
+    .text-overlay
+    {
+        position: absolute;
+        top:20vh;
+    }
+  }
